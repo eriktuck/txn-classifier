@@ -7,13 +7,19 @@ This project seeks to create a classifier for transactions for use in a financia
 The project leverages techniques from deep learning in two parts:
 
 1.    Train a generative adversarial neural network (CTGAN) to produce realistic training data from a small sample of correctly labeled data
-2.   Train a transformer-based neural network to correctly classify the generated transactions with an appropriate label.
+2.    Train a transformer-based neural network to correctly classify the generated transactions with an appropriate label.
+3.    Fine-tune a transformer-based neural network (BERT) to compare with custom NN approaches.
+
+**PLEASE FIND NOTEBOOKS ON GOOGLE COLAB**
+
+-   [Transaction Data Generator](https://colab.research.google.com/drive/1c29dSDa1hOkBw3tzefejr3dkUYFZLmJZ#scrollTo=0A8oSTpdgfki)
+-   [Transaction Classifier](https://colab.research.google.com/drive/1aBjRTEzCOstnZ6Pyae6QRgce-VLhsZsu#scrollTo=UCsEB0tO9ynK)
 
 ## Environment
 
 These notebooks were originally run in Google Colab but may be run locally with appropriate revisions to input file paths. 
 
->   Google Colab recently updated package versions causing an irresolvable conflict between Gensim which requires numpy <=2.0.0 and other packages. Take care when creating the environment to use pinned package versions. Otherwise
+>   Google Colab recently updated package versions causing an irresolvable conflict between Gensim which requires numpy <=2.0.0 and other packages. Take care when creating the environment to use pinned package versions.
 
 To reproduce this workflow, use the provided `environment.yml` file to create a conda environment (you should already have Python and conda installed on your system).
 
