@@ -1,0 +1,21 @@
+name: txn-classifier
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - pip:
+      - numpy==1.26.4
+      - gensim==4.3.2
+      - pandas
+      - matplotlib
+      - scikit-learn
+      - keras
+      - tensorflow
+      - sdv
+      - rdt
+      - torch
+      - transformers
+      - datasets
+      - evaluate
