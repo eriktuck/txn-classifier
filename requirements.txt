@@ -1,0 +1,13 @@
+# Core libraries
+transformers>=4.40.0
+datasets>=2.18.0
+scikit-learn>=1.4.0
+pandas>=2.2.0
+numpy>=1.25.0
+
+# GPU-compatible PyTorch (adjust based on your CUDA version, see notes below)
+torch>=2.1.0
+
+# Optional: for progress bars and visualization
+tqdm
+matplotlib

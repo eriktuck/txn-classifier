@@ -5,5 +5,20 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "datasets>=4.0.0",
+    "dotenv>=0.9.9",
+    "evaluate>=0.4.5",
+    "gensim==4.3.2",
+    "ipykernel>=6.29.5",
     "matplotlib>=3.10.3",
+    "monarchmoney>=0.1.15",
+    "numpy==1.26.4",
+    "pandas>=2.3.0",
+    "rdt>=1.13.2",
+    "scikit-learn>=1.7.0",
+    "sdv>=1.18.0",
+    "tensorflow>=2.18.1",
+    "tf-keras>=2.18.0",
+    "torch>=2.7.1",
+    "transformers[torch]>=4.53.2",
 ]
