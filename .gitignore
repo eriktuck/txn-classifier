@@ -2,3 +2,10 @@ data/*
 !data/.keep
 
 .env
+
+notebooks/bert-finetuned-transactions/
+notebooks/bert-finetuned-merchant/
+notebooks/logs
+
+.ipynb_checkpoints
+
